@@ -1,0 +1,52 @@
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  grid-template-columns: auto;
+}
+ .input_form,
+ .list-block,
+ .task-text,
+ .btn-dlt {
+     border: 1px solid darkgrey;
+     border-radius: 5px;
+     background: url('../../MoviesToWatch/src/assets/stone.jpeg');
+ }
+
+.btn-dlt {
+    display: inline-grid;
+    width: 20px;
+    height: 20px;
+    justify-self: end;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px 0px rgba(50, 50, 50, 0.75);
+}
+
+.btn-dlt:active {
+    box-shadow: 0px 0px 0px 0px;
+    transform: translateY(2px);
+}
+
+.task {
+    padding: 5px;
+    border: none;
+}
+.input_form,
+.green {
+    background: greenyellow;
+}
+
+.input_form,
+.list-block,
+.task-text {
+    padding: 10px;
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.checkBox {
+    border: none;
+    width: fit-content;
+    margin: 10px;
+    display: inline;
+}

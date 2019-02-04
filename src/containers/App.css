@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: url('../components/MoviesToWatch/src/assets/tree_texture.jpeg');
+}
+
+.to_do_list,
+.movies_to_watch,
+.personal_diary {
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  margin: 20px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.to_do_list {
+  background: forestgreen;
+}
+
+.movies_to_watch {
+  background: darkblue;
+}
+
+.personal_diary {
+  background: saddlebrown;
+}
